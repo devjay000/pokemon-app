@@ -45,7 +45,7 @@ const App = () => {
 
     return (
         <div className="app">
-            <h1>Pokémon Cards</h1>
+            <h1>Pokemon Cards</h1>
             <SearchBar
                 searchQuery={searchQuery}
                 setSearchQuery={setSearchQuery}

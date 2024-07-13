@@ -4,7 +4,7 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
     return (
         <input
             type="text"
-            placeholder="Search Pokémon"
+            placeholder="Search Pokemon"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
         />
